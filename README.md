@@ -140,6 +140,21 @@ Embedding(10000, 64) → [RNN | LSTM | GRU](64, 64) → Linear(64, 1) → Sigmoi
 
 > Generated samples are saved at each epoch in `output/`. Images progressively improve from random noise to recognizable patterns.
 
+### 🖼️ Generated Samples
+
+<table>
+  <tr>
+    <td align="center"><strong>Epoch 1</strong><br/><img src="output/epoch_1.png" width="200"/></td>
+    <td align="center"><strong>Epoch 5</strong><br/><img src="output/epoch_5.png" width="200"/></td>
+    <td align="center"><strong>Epoch 10</strong><br/><img src="output/epoch_10.png" width="200"/></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Epoch 15</strong><br/><img src="output/epoch_15.png" width="200"/></td>
+    <td align="center"><strong>Epoch 20</strong><br/><img src="output/epoch_20.png" width="200"/></td>
+    <td align="center"></td>
+  </tr>
+</table>
+
 ---
 
 ## 🚀 Getting Started
@@ -177,15 +192,15 @@ jupyter notebook
 
 ## 📸 Outputs
 
-Generated image samples from the DCGAN training process:
+Generated image samples from the DCGAN training process (saved in `output/`):
 
-| Stage | File | Description |
-|:------|:-----|:-----------|
-| Early | `epoch_1.png` | Initial noise — no recognizable patterns |
-| Preliminary | `epoch_5.png` | Beginning of structure formation |
-| Intermediate | `epoch_10.png` | Color and shape patterns emerge |
-| Advanced | `epoch_15.png` | Improved quality and coherence |
-| Final | `epoch_20.png` | Best results after full training |
+| Stage | File | Preview |
+|:------|:-----|:-------:|
+| Early | `epoch_1.png` — Initial noise | <img src="output/epoch_1.png" width="150"/> |
+| Preliminary | `epoch_5.png` — Structure forming | <img src="output/epoch_5.png" width="150"/> |
+| Intermediate | `epoch_10.png` — Patterns emerge | <img src="output/epoch_10.png" width="150"/> |
+| Advanced | `epoch_15.png` — Improved quality | <img src="output/epoch_15.png" width="150"/> |
+| Final | `epoch_20.png` — Best results | <img src="output/epoch_20.png" width="150"/> |
 
 ---
 
